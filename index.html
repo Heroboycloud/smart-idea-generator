@@ -1,0 +1,61 @@
+<html>
+    <!-- Copyright (c) - 2015 Juha Harviainen ("Kalakuh") -->
+    <!-- Such source code, very wow!                      -->
+    <head>
+        <title>
+            Idea Generator ~ Kalakuh
+        </title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="description" content="An awesome and free game idea generator! Did I already mention it's free to use? Well, anyway, feel free to use it if you've no idea what you could do.">
+        <meta name="keywords" content="Game,Idea,Generator,Kalakuh">
+        <meta name="author" content="Juha Harviainen">
+        <meta name="application-name" content="IdeaGenerator">
+        <style>
+            * {
+                font-family: verdana, "comic sans ms", georgia; 
+                color: white;
+            }
+            
+            body {
+                background-image: -webkit-linear-gradient(top, #5d1070, #ffffff);   
+            }
+            
+            #idea {
+                margin-top: 30%;
+            }
+            
+            #footer {
+                color:green;
+                bottom: 0px;
+                position: absolute;
+                text-align: center;
+                left: 0;
+                right: 0;
+            }
+            
+            button {
+                border-radius: 15px;
+                background-image: -webkit-linear-gradient(top, #5d1070, #000000);  
+                border: 2px solid #5d1070;
+                font-size: 30px;
+                font-family: verdana, "comic sans ms", georgia; 
+            }
+            button:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body onload="generate()">
+    
+        <script src="app.js"> </script>
+        <h1>
+            &emsp;&emsp;&emsp;&starf;&nbsp;My Crazy Game Idea Generator&nbsp;&starf;
+        </h1>
+        <center>
+            
+            <h2 id="idea"></h2>
+            <button id="gen" onclick="generate()">Generate a new idea!</button>
+            <h3 id="footer">Owned By Akindel&starf;</h3>
+        </center>
+    </body>
+</html>
